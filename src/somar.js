@@ -5,7 +5,7 @@
 
 function somar(a, b) {
   if(a == undefined){
-    return "Insira um valor para 'a'"
+    return "Parâmetro inválido"
   }
   if(b == null || b == undefined) {
     b = 0
